@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+header {
+  display: flex;
+  align-items: center;
+  padding: 20px 50px;
+  justify-content: space-around;
+}
+
+header nav {
+  margin-left: auto;
+}
+header nav a {
+  margin: 0 25px;
+  text-decoration: none;
+}
+.fa-search {
+  background-color: #c4c4c4;
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+}
+
+/* Hero Styles */
+.hero {
+  padding: 200px 50px 100px;
+  text-align: center;
+  background-image: url("https://picsum.photos/id/233/1080/500/");
+}
+.hero h3 {
+  color: #fff;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+form select,
+button {
+  padding: 10px 20px;
+  width: 20%;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+form select:focus {
+  outline: none;
+}
+form button {
+  cursor: pointer;
+  background-color: #c4c4c4 !important;
+  color: #fff;
+}
